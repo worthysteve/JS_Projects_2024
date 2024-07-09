@@ -581,12 +581,3 @@ for (const [index, value] of Object.values(
 /*
 Use the Object.entries() method on the thirdParty.goodreads property of the first book from the books array. Assign the returned value to the variable called entries2.
 */
-
-const entries2 = Object.entries(books[0].thirdParty.goodreads);
-console.log(entries2);
-
-// https://codingheroes.io/assignments/looping-objects-object-keys-values-and-entries.html#11-4
-
-/*
-Log the entries and entries2 variables to the console, and compare them. They should look the same.
-*/
